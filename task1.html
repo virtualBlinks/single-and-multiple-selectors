@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="meausres"></p>
+    <input id="input" type="text">
+    <button onclick="popping()">pop</button>
+    <button onclick="pushing()">push</button>
+    <button onclick="unshift()">unshift</button>
+    <button onclick="shift()">shift</button>
+    <button onclick="slicing()">slice</button>
+    <button onclick="splicing()">splice</button>
+    <button onclick="reversing()">reversing</button>
+    <button onclick="sorting()">sorting</button>
+</body>
+<script>
+   let meausres = document.getElementById("meausres")
+   let input = document.getElementById("input")
+
+
+
+
+
+
+
+
+
+
+
+   
+/*
+let cars = ['ford', 'mexedes', 'toyota', 'Range rover', 'honda', 'chevy']
+
+for (let i = 0; i < cars.length; i++)
+console.log(cars[i]);
+
+
+// cars.forEach((car)=>{
+//     console.log(car);
+// })
+// cars.map((element)=>{
+//     console.log(element);
+// })
+
+let users = [
+    {id : 1, name: 'John'},
+    {id : 2, name: 'Daniel'},
+    {id : 3, name: 'Karen'},
+    {id : 4, name: 'Ruby'}
+]
+
+for(let i = 0; i < users.length; i++){
+let element = users[i].id
+console.log(element);
+
+}
+
+users.map((element, index)=>{
+console.log(element.name);
+
+})
+
+
+
+let arry = [23, 40, 60 ,67, 50, 30, 20]
+
+let person = {
+    firstName: 'Abiola',
+    lastName: 'Samuel',
+    age: 30,
+    email: 'oladimeji@gmail.com',
+    hobbies: ['music', 'sport'],
+    address: {
+        city : 'Miami',
+        state: 'Florida'
+    },
+    getBirthYear: function () {
+        return 2023 - this.age;
+    },
+    getlocation: function () {
+        return this.address;
+    }
+}
+
+
+let val;
+
+ val = person
+ val = person.hobbies
+ val = person.getBirthYear()
+ val = person.getlocation()
+
+ console.log(val);
+
+
+ let people = [
+    {Name: 'Jones', age: 30},
+    {Name: 'mark', age: 55}
+ ]
+
+
+ for (let index = 0; index < people.length; index++) {
+     const element = people[index].Name;
+     console.log(element);
+
+ }
+
+//    let arry2 = new Array (26, 13, 100 ,87, 55, 56, 40)
+// arry[3] = 500
+
+meausres.innerHTML = arry 
+
+function popping(){
+ arry.pop()
+ meausres.innerHTML = arry 
+}
+
+function pushing(){
+     arry.push(input.value)
+     meausres.innerHTML = arry 
+}
+
+function unshift(){
+     arry.unshift(input.value)
+     meausres.innerHTML = arry 
+}
+
+function shift(){
+     arry.shift()
+     meausres.innerHTML = arry 
+}
+
+function splicing(){
+    arry.splice(2,2)
+     meausres.innerHTML = arry 
+     console.log(arry);
+}
+
+function slicing(){
+    arry.slice(2, 3)
+     meausres.innerHTML = arry 
+     console.log(arry);
+}
+function reversing(){
+    arry.reverse()
+     meausres.innerHTML = arry 
+     console.log(arry);
+}
+
+function sorting(){
+    arry.sort()
+     meausres.innerHTML = arry 
+     console.log(arry);
+}
+function under50(num) {
+   return num < 50 
+}
+let newFind = arry.find(under50)
+     console.log(newFind);
+ 
+
+
+// function under50(num) {
+//   return num < 50;
+// }
+
+// // Use the find method to find the first element in the array that satisfies the condition
+// let result = arry.find(under50);
+
+// console.log(result);
+
+    // console.log(arry);
+
+
+
+
+
+// let arryy = [new Date()]
+
+// meausres.innerHTML = arryy
+
+   
+ let markMass = 78
+ let markHight = 1.69
+ let johnMass = 92
+ let johnHight = 1.95
+
+ let bmi ={
+ bmiMark : markMass / markHight ** 2,
+ bmiJohn : johnMass / johnHight ** 2}
+console.log(bmi);
+
+  markMass = 95
+  markHight = 1.88
+
+  johnMass = 85
+  johnHight = 1.76
+
+ let bmi2 ={
+ bmiMark : markMass / (markHight * markHight),
+ bmiJohn : johnMass / (johnHight * johnHight)}
+console.log(bmi2);
+console.log(bmi.bmiMark > bmi.bmiJohn)
+console.log(bmi < bmi2)
+ 
+meausres.innerHTML = bmi2.bmiMark > bmi.bmiJohn
+*/
+
+ 
+</script>
+</html>
